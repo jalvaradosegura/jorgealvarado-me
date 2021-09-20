@@ -4,17 +4,29 @@ const BioSocialIcons = () => {
   return (
     <div className="flex justify-center lg:justify-start pt-4 text-3xl">
       <div className="transition duration-500 ease-in-out hover:text-primary transform hover:-translate-y-1 hover:scale-110">
-        <a href="https://github.com/jalvaradosegura" target="_blank">
+        <a
+          href="https://github.com/jalvaradosegura"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub></FaGithub>
         </a>
       </div>
       <div className="px-8 transition duration-500 ease-in-out hover:text-primary transform hover:-translate-y-1 hover:scale-110">
-        <a href="https://www.linkedin.com/in/j-alvarado-segura/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/j-alvarado-segura/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin></FaLinkedin>
         </a>
       </div>
       <div className="transition duration-500 ease-in-out hover:text-primary transform hover:-translate-y-1 hover:scale-110">
-        <a href="https://www.instagram.com/jorgealvarado__/" target="_blank">
+        <a
+          href="https://www.instagram.com/jorgealvarado__/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaInstagram></FaInstagram>
         </a>
       </div>
