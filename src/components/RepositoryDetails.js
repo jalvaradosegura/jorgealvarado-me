@@ -1,6 +1,6 @@
 const RepositoryDetails = () => {
   return (
-    <div class="flex flex-col items-center pt-4 text-lg">
+    <div className="flex flex-col items-center pt-4 text-lg dark:text-white">
       <p>
         🗓{" "}
         <a

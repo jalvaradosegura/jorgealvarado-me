@@ -1,4 +1,3 @@
-import NavBar from "./NavBar";
 import RepositoryDetails from "./RepositoryDetails";
 
 const DetailsContainer = () => {

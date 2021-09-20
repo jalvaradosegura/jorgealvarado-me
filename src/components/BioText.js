@@ -4,9 +4,9 @@ const BioText = () => {
   return (
     <>
       <div className="p-4">
-        <div className="bg-secondary pb-1 pr-1 rounded-md">
+        <div className="bg-secondary pb-1 pr-1 rounded-md dark:text-white">
           <div className="bg-primary p-1 rounded">
-            <div className="bg-white p-4">
+            <div className="bg-white dark:bg-gray-700 p-4">
               <h1 className="text-2xl">
                 👋 Hi {"I'm"} <span className="font-bold">Jorge Alvarado</span>
               </h1>
