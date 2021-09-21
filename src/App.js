@@ -3,6 +3,7 @@ import { useState } from "react";
 import BioContainer from "./components/BioContainer";
 import DarkModeToggle from "./components/DarkModeToggle";
 import DetailsContainer from "./components/DetailsContainer";
+import Footer from "./components/Footer";
 import TopBanner from "./components/TopBanner";
 
 function App() {
@@ -13,11 +14,20 @@ function App() {
 
   return (
     <div className={isDarkTheme ? "dark" : "else"}>
-      <div className="bg-white dark:bg-gray-700 min-h-screen">
-        <TopBanner></TopBanner>
-        <DarkModeToggle darkMode={swapTheme}></DarkModeToggle>
-        <BioContainer></BioContainer>
-        <DetailsContainer></DetailsContainer>
+      <div className="bg-white dark:bg-gray-700 min-h-screen flex flex-col">
+        <div>
+          <TopBanner></TopBanner>
+        </div>
+
+        <div className="flex-grow">
+          <DarkModeToggle darkMode={swapTheme}></DarkModeToggle>
+          <BioContainer></BioContainer>
+          <DetailsContainer></DetailsContainer>
+        </div>
+
+        <div>
+          <Footer></Footer>
+        </div>
       </div>
     </div>
   );
