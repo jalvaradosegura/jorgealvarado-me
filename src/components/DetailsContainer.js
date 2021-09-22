@@ -1,13 +1,7 @@
-import RepositoryDetails from "./RepositoryDetails";
+import FavoriteRepositories from "./FavoriteRepositories";
 
 const DetailsContainer = () => {
-  return (
-    <>
-      <div className="p-4">
-        <RepositoryDetails></RepositoryDetails>
-      </div>
-    </>
-  );
+  return <FavoriteRepositories></FavoriteRepositories>;
 };
 
 export default DetailsContainer;
