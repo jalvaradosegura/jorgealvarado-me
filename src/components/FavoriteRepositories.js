@@ -22,7 +22,7 @@ const FavoriteRepositories = () => {
         are currently the packages I am most proud of.
       </p>
 
-      <p>They have over 6,000 downloads.</p>
+      <p>Together they have over 13,000 downloads.</p>
     </div>
   );
 };
