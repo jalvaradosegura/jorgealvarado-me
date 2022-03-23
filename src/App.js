@@ -1,16 +1,16 @@
-import "./App.css";
-import { useState } from "react";
-import BioContainer from "./components/BioContainer";
-import DarkModeToggle from "./components/DarkModeToggle";
-import DetailsContainer from "./components/DetailsContainer";
-import Footer from "./components/Footer";
-import TopBanner from "./components/TopBanner";
+import "./App.css"
+import { useState } from "react"
+import BioContainer from "./components/BioContainer"
+import DarkModeToggle from "./components/DarkModeToggle"
+import DetailsContainer from "./components/DetailsContainer"
+import Footer from "./components/Footer"
+import TopBanner from "./components/TopBanner"
 
 function App() {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(false)
   const swapTheme = () => {
-    setIsDarkTheme(!isDarkTheme);
-  };
+    setIsDarkTheme(!isDarkTheme)
+  }
 
   return (
     <div className={isDarkTheme ? "dark" : "else"}>
@@ -21,7 +21,7 @@ function App() {
 
         <div className="flex-grow">
           <DarkModeToggle darkMode={swapTheme}></DarkModeToggle>
-          <BioContainer></BioContainer>
+          <BioContainer isDarkTheme={isDarkTheme}></BioContainer>
           <DetailsContainer></DetailsContainer>
         </div>
 
@@ -30,7 +30,7 @@ function App() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

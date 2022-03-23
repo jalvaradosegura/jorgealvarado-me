@@ -13,11 +13,11 @@ const BioText = () => {
       <p className="text-xl pt-4">{"I'm"} a software engineer from Chile. 🇨🇱</p>
 
       <p className="text-xl pt-4">
-        {"I've"} been working for big tech companies for the past 3 years. 🧑‍💻
+    	I have created a few open source libraries, one with over 13k+ downloads and I have contributed to some open source projects like FastAPI. 🧑‍💻
       </p>
 
       <p className="text-xl pt-4">
-        {"I like: Python, FastAPI, Django, Tailwind and Vim. ❤️"}
+        {"My current preferences: Python, FastAPI, Django, React, Tailwind and Vim. ❤️"}
       </p>
 
       <p className="text-xl pt-4">
