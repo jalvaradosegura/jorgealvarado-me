@@ -1,4 +1,5 @@
 import BioSocialIcons from "./BioSocialIcons";
+import AnimatedText from "./AnimatedText.js";
 
 const BioText = () => {
   return (
@@ -21,8 +22,7 @@ const BioText = () => {
       </p>
 
       <p className="text-xl pt-4">
-        I love to travel, I like to try new beers (100 % amateur) and some
-        people say that I make good pizzas. 🛩 🍻 🍕
+    	<AnimatedText/>
       </p>
 
       <BioSocialIcons></BioSocialIcons>
@@ -31,3 +31,4 @@ const BioText = () => {
 };
 
 export default BioText;
+
