@@ -1,5 +1,5 @@
-import BioSocialIcons from "./BioSocialIcons";
-import AnimatedText from "./AnimatedText.js";
+import BioSocialIcons from "./BioSocialIcons"
+import AnimatedText from "./AnimatedText.js"
 
 const BioText = () => {
   return (
@@ -14,21 +14,24 @@ const BioText = () => {
       <p className="text-xl pt-4">{"I'm"} a software engineer from Chile. 🇨🇱</p>
 
       <p className="text-xl pt-4">
-    	I have created a few open source libraries, one with over 13k+ downloads and I have contributed to some open source projects like FastAPI. 🧑‍💻
+        I have created a few open source libraries, one with over 13k+ downloads
+        and I have contributed to some open source projects like FastAPI. 🧑‍💻
       </p>
 
       <p className="text-xl pt-4">
-        {"My current preferences: Python, FastAPI, Django, React, Tailwind and Vim. ❤️"}
+        {
+          "My current preferences: Python, FastAPI, Django, React, Tailwind and Vim. ❤️"
+        }
       </p>
 
       <p className="text-xl pt-4">
-    	<AnimatedText/>
+        I love to travel, to try new beers, pizzas, to make pizzas, my family
+        and to learn. 🛩🍕🍻❤️
       </p>
 
       <BioSocialIcons></BioSocialIcons>
     </div>
-  );
-};
+  )
+}
 
-export default BioText;
-
+export default BioText
