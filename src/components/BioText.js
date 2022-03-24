@@ -1,5 +1,4 @@
 import BioSocialIcons from "./BioSocialIcons"
-import AnimatedText from "./AnimatedText.js"
 
 const BioText = () => {
   return (
