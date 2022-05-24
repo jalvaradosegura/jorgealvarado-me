@@ -22,7 +22,7 @@ const EmailSVG = () => {
 const BioText = () => {
   return (
     <div className="dark:bg-gray-700 dark:text-white p-8">
-      <h1 className="text-2xl flex items-center">
+      <h1 className="text-2xl flex flex-wrap items-center">
         👋 Hi {"I'm"}{" "}
         <span className="bg-gradient-to-r from-primary dark:via-purple-300 to-secondary text-transparent bg-clip-text font-bold ml-2">
           Jorge Alvarado
